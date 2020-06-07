@@ -10,7 +10,7 @@ const ServiceList = (props) => {
   const [appointmentInfo, setAppointmentInfo] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:3700/services")
+    fetch("https://salty-cliffs-21759.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => {
         setIsLoading(false);

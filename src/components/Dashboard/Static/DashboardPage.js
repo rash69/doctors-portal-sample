@@ -10,7 +10,7 @@ const DashboardPage = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3700/allAppointments")
+    fetch("https://salty-cliffs-21759.herokuapp.com/allAppointments")
       .then((res) => res.json())
       .then((data) => {
         setIsLoading(false);

@@ -48,7 +48,7 @@ const AppointmentForm = (props) => {
       visited: false,
       action: "pending",
     };
-    fetch("http://localhost:3700/bookAppointment", {
+    fetch("https://salty-cliffs-21759.herokuapp.com/bookAppointment", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -5,6 +5,7 @@ import "react-calendar/dist/Calendar.css";
 import Header from "../Header/Header";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Title from "../Title/Title";
 
 const AppointmentList = () => {
   const [date, setDate] = useState(new Date());
@@ -15,7 +16,10 @@ const AppointmentList = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("http://localhost:3700/dailyAppointment/" + date.toDateString())
+    fetch(
+      "https://salty-cliffs-21759.herokuapp.com/dailyAppointment/" +
+        date.toDateString()
+    )
       .then((res) => res.json())
       .then((data) => {
         if (data.message) {
@@ -31,7 +35,7 @@ const AppointmentList = () => {
     <>
       <Header />
       <div className="container">
-        <h3 className="text-info text-center">Appointments</h3>
+        <Title title={"Appointments"} />
         <div className="row m-5">
           <div className="col-md-5">
             <Calendar

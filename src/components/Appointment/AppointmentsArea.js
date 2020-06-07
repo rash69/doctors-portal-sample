@@ -2,9 +2,9 @@ import React from "react";
 import "./AppointmentArea.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faPhone,
-  faClock,
-  faLocationArrow,
+  faPhoneSquareAlt,
+  faUserClock,
+  faSearchLocation,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
@@ -42,7 +42,7 @@ const AppointmentsArea = () => {
             <div className="col-md-4">
               <div className="d-flex justify-content-between align-items-center cat1">
                 <div className="col-md-2">
-                  <FontAwesomeIcon className="fa-2x" icon={faClock} />
+                  <FontAwesomeIcon className="fa-2x" icon={faUserClock} />
                 </div>
                 <div className="row col-md-10">
                   <h4>Opening Hours</h4>
@@ -53,7 +53,7 @@ const AppointmentsArea = () => {
             <div className="col-md-4">
               <div className="d-flex justify-content-between align-items-center cat2">
                 <div className="col-md-2">
-                  <FontAwesomeIcon className="fa-2x" icon={faLocationArrow} />
+                  <FontAwesomeIcon className="fa-2x" icon={faSearchLocation} />
                 </div>
                 <div className="row col-md-10">
                   <h4>Location</h4>
@@ -64,7 +64,7 @@ const AppointmentsArea = () => {
             <div className="col-md-4">
               <div className="d-flex justify-content-between align-items-center cat3">
                 <div className="col-md-2">
-                  <FontAwesomeIcon className="fa-2x" icon={faPhone} />
+                  <FontAwesomeIcon className="fa-2x" icon={faPhoneSquareAlt} />
                 </div>
                 <div className="row col-md-10">
                   <h4>Contact us</h4>

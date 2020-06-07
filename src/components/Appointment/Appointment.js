@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import DatePicker from "../DatePicker/DatePicker";
-import "./Appointment.css";
 import ServiceList from "../Service/ServiceList";
 import Header from "../Header/Header";
 

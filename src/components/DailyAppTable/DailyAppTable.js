@@ -13,13 +13,16 @@ const DailyAppTable = (props) => {
   const [visited, setVisited] = useState([]);
   console.log(props.dailyAppointment);
   const handleVisit = (id) => {
-    fetch("http://localhost:3700/dailyAppointment/updateVisit", {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ id }),
-    }).then((res) => res.json());
+    fetch(
+      "https://salty-cliffs-21759.herokuapp.com/dailyAppointment/updateVisit",
+      {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ id }),
+      }
+    ).then((res) => res.json());
     setVisited(true);
   };
 
@@ -50,14 +53,14 @@ const DailyAppTable = (props) => {
                     <TableCell align="right">
                       {visited ? (
                         <button className="btn btn-success pt-0 pb-0" disabled>
-                          Visited
+                          not visited
                         </button>
                       ) : (
                         <button
                           onClick={() => handleVisit(appointment.id)}
                           className="btn btn-danger pt-0 pb-0"
                         >
-                          Not Visited
+                          visited
                         </button>
                       )}
                     </TableCell>

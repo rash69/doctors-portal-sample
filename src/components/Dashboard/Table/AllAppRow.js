@@ -10,7 +10,7 @@ const AllAppRow = (props) => {
 
   const handlePrescription = (e) => {
     console.log(prescription);
-    fetch("http://localhost:3700//updatePrescription", {
+    fetch("https://salty-cliffs-21759.herokuapp.com/updatePrescription", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
