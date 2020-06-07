@@ -1,0 +1,12 @@
+.login-page {
+  background: url("https://i.ibb.co/X3hFngh/Group-140.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 500px;
+  margin: 20px 20px;
+}
+
+.signIn-content {
+  margin-top: 30%;
+}

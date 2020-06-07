@@ -1,0 +1,13 @@
+
+
+.navItem:hover{
+    color: black;
+} 
+
+.navItem {
+    font-size: large;
+    color: white;
+    padding-left: 20px;
+    text-decoration: none !important;
+}
+

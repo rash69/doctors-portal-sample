@@ -1,0 +1,57 @@
+.banner-aria {
+  background-image: url("https://i.ibb.co/SmTt9Wx/Mask-Group-2.png");
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  background-position: center center;
+  background-size: cover;
+}
+.banner-content {
+  margin-top: 100px;
+}
+.banner-content h1 {
+  color: rgb(55, 56, 59);
+  font-weight: bold;
+}
+
+.banner-content p {
+  color: gray;
+  font-weight: lighter;
+}
+
+.container-categories {
+  margin-top: 100px;
+}
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 25px;
+  border-radius: 5px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.cat1 {
+  background-color: rgb(112, 170, 206);
+  color: white;
+}
+
+.cat2 {
+  background-color: rgb(16, 32, 53);
+  color: white;
+}
+
+.cat3 {
+  background-color: rgb(112, 170, 206);
+  color: white;
+}
+
+.cat1:hover {
+  background-color: rgb(16, 32, 53);
+}
+.cat3:hover {
+  background-color: rgb(16, 32, 53);
+}
+.cat2:hover {
+  background-color: rgb(112, 170, 206);
+}

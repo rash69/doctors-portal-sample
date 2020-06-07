@@ -1,0 +1,19 @@
+.make-appointment-container {
+  background-color: lightslategray;
+  width: 100%;
+  height: 573px;
+}
+
+.content {
+  margin-top: 100px;
+  text-align: left;
+}
+
+.content h4 {
+  margin-top: 20px;
+}
+
+.content h1,
+p {
+  color: white;
+}

@@ -1,0 +1,19 @@
+.service-container {
+  margin-top: 100px;
+}
+.heading {
+  margin-bottom: 50px;
+}
+.heading h4 {
+  color: rgb(72, 188, 192);
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.services h5 {
+  margin-top: 20px;
+}
+.services p {
+  color: gray;
+}

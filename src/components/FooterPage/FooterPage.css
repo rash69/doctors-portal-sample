@@ -1,0 +1,63 @@
+.footer-container {
+	padding-top: 55px;
+	background: #3DA5F4;
+    height: auto;
+    margin-top: 100px;
+}
+.footer-content {
+    margin-left: 20px;
+    margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-option a{
+	font-size: 14px;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+    line-height: 31px;
+    text-decoration: none;
+}
+.footer-option a:hover{
+    color: lightgray;
+}
+.footer-option p{
+    font-size: 14px;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+    line-height: 31px;
+    text-decoration: none;
+}
+.footer-option p:hover{
+    color: lightgray;
+}
+.footer-icon{
+    display: inline;
+    padding: 10px;
+}
+.footer-icon i{
+    font-size: 2rem;
+    border-radius: 50%;
+}
+.footer-icon i:hover{
+    color: white;
+}
+.call{
+    color: black !important;
+    padding: 10px;
+    background: lightyellow;
+    border-radius: 5px;
+}
+.call:hover{
+    background: lightslategray;
+}
+.footer-bottom{
+    text-align: center;
+    background-color: white !important;
+}
+.footer-bottom p{
+    font-weight: 200;
+    color: grey;
+}

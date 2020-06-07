@@ -1,0 +1,10 @@
+.not-found-content {
+  padding: 20px 20px;
+  background-color: lightcyan;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
